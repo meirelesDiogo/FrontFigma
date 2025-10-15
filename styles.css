@@ -1,0 +1,437 @@
+
+html, body {
+
+  border: 0;
+  padding: 0;
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f8fbfd;
+  color: #222;
+}
+.tudo {
+ 
+  margin: 0 auto;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.04);
+  background: #fff;
+  border-radius: 12px;
+  padding-bottom: 30px;
+}
+.formacoes, .skills {
+  background-color: #e0f2ff;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  
+}
+.form{
+  
+  background-color: #e0f2ff;
+ 
+}
+
+.formacoes > p, .experiencias > p {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: black;
+  margin: 20px 0 10px 30px;
+  letter-spacing: 1px;
+}
+.cartoes {
+  display: flex;
+  gap: 24px;
+  padding: 20px 0;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card {
+  max-width: 400px;
+  min-height: auto;
+  border-radius: 12px;
+  border: 1px solid #b3d8f7;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  padding: 18px 16px;
+  transition: box-shadow 0.3s;
+}
+.card:hover {
+  box-shadow: 0 6px 24px rgba(0,123,255,0.13);
+  border-color: #007bff;
+}
+.skills {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  padding: 24px 0;
+  flex-wrap: wrap;
+}
+.cartao {
+  flex: 1;
+  max-width: 300px;
+  min-width: 220px;
+}
+.front, .back {
+  background-color: #fff;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  height: 300px;
+  padding: 18px 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: box-shadow 0.3s;
+}
+.front:hover, .back:hover {
+  box-shadow: 0 8px 24px rgba(0,123,255,0.12);
+}
+.bi.bi-database-lock,
+.bi.bi-pc-display {
+  font-size: 44px;
+  color: black;
+  margin-bottom: 12px;
+}
+header {
+  text-align: center;
+  padding: 36px 18px 18px 18px;
+}
+header h1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: black;
+}
+header p {
+  font-size: 1.1rem;
+  margin-bottom: 18px;
+  color: #444;
+}
+#curriculo {
+  text-decoration: none;
+  background-color: rgba(255, 0, 0, 0.626);
+  padding: 8px 0;
+  border-radius: 9px;
+  color: #fff;
+  display: block;
+  
+  text-align: center;
+  width: 250px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  transition: background 0.3s, color 0.3s;
+}
+#curriculo:hover {
+  background-color: rgba(255, 0, 0, 0.737);
+  color: #fff;
+}
+.nav {
+  background-color: #e0f2ff;
+  border-radius: 0 0 12px 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+  padding: 10px 0;
+  margin-bottom: 18px;
+}
+.nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+.nav li {
+  display: inline-block;
+  margin: 0 8px;
+}
+.nav a {
+  text-decoration: none;
+  color: #222;
+  padding: 12px 22px;
+  font-weight: 500;
+  border-radius: 6px;
+  transition: color 0.3s, background 0.3s;
+}
+.nav a:hover {
+  color: black;
+  background: #d0eaff;
+}
+.desenvolvimento, .manutencao {
+  background: #f4faff;
+  border-radius: 10px;
+  margin: 18px 0;
+  padding: 18px 22px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+.desenvolvimento h2, .manutencao h2 {
+  color: black;
+  font-size: 1.3rem;
+  margin-bottom: 8px;
+}
+.redes-sociais {
+  text-align: center;
+  margin: 0px 0 10px 0;
+
+}
+.redes-sociais i {
+  padding: 18px;
+  font-size: 2rem;
+  color: black;
+  transition: color 0.3s, transform 0.3s;
+}
+.redes-sociais a:hover i {
+  color: #222;
+  transform: scale(1.15);
+}
+footer {
+  text-align: center;
+  margin-top: 30px;
+  padding: 16px 0 0 0;
+  color: #888;
+  font-size: 1rem;
+}
+.nav{
+  justify-content: center;
+}
+@media (max-width: 900px) {
+  .cartoes, .skills {
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+  }
+  .card, .cartao {
+    max-width: 95vw;
+    width: 100%;
+  }
+  .tudo {
+    max-width: 98vw;
+    border-radius: 0;
+  }
+
+  /* Ajustes para tablet: aumentar largura dos containers e cartões */
+  .formacoes {
+    max-width: 760px;
+    margin: 0 auto 18px;
+    padding: 10px 16px;
+  }
+
+  .cartoes {
+    max-width: 760px;
+    width: 100%;
+    padding: 12px 16px;
+    gap: 20px;
+  }
+
+  .card, .cartao {
+    max-width: 700px;
+    width: 100%;
+    margin: 10px auto;
+    min-width: 0;
+  }
+}
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 1.3rem;
+  }
+  .formacoes > p, .experiencias > p {
+    font-size: 1.1rem;
+    margin-left: 10px;
+  }
+  .desenvolvimento, .manutencao {
+    padding: 12px 8px;
+  }
+  #curriculo {
+    width: 90vw;
+    font-size: 1rem;
+  }
+  .nav a {
+    padding: 10px 8px;
+    font-size: 1rem;
+  }
+  .card, .cartao {
+    min-width: 180px;
+    height: auto;
+    padding: 12px 8px;
+  }
+  .front, .back {
+    height: auto;
+    padding: 12px 8px;
+  }
+}
+.head{
+  display: flex;
+  align-items: center;
+}
+.card{
+  width: 45%;
+}
+.desenvolvimento,
+.manutencao{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.desenvolvimento h2, .manutencao h2 {
+  margin: 0;
+  font-size: 1.5em;
+}
+.desenvolvimento p, .manutencao p {
+  margin: 5px 0;
+}
+.desenvolvimento img, .manutencao img {
+  max-width: 150px;
+  height: auto;
+  margin-right: 20px;
+}
+.desenvolvimento,
+.manutencao{
+  
+  height: 240px;
+}
+
+
+.p{
+  color: gray;
+}
+.b{
+  color: white;
+  background-color: black;
+  padding: 5px ;
+  border-radius: 15px;
+}
+
+header {
+  text-align: left; 
+  max-width: 900px; 
+  margin: 0 auto; /* centraliza horizontalmente  */
+  padding: 20px;
+}
+
+
+
+.diogadas{
+ display: flex;
+}
+.card{
+  margin: 20px;
+}
+
+.experiencias{
+ margin: 50px 50px;
+}
+.redes-sociais{
+  padding: 0px;
+}
+
+@media (max-width: 600px) {
+
+  /* Header: deixa o texto e imagem empilhados, centralizados */
+  .head {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  .head img {
+    max-width: 150px;
+    width: 100%;
+    height: auto;
+    border-radius: 50%; /* deixa a imagem circular */
+  }
+
+  header h1 {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  header p {
+    font-size: 1rem;
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  #curriculo {
+    width: 90vw;
+    font-size: 1rem;
+    margin: 15px auto;
+    display: block;
+  }
+
+  /* Experiências e Manutenção: empilhar imagem e texto, imagem centralizada */
+  .desenvolvimento, .manutencao {
+    flex-direction: column;
+    height: auto;
+    padding: 12px 10px;
+  }
+
+  .desenvolvimento img, .manutencao img {
+    max-width: 150px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto 15px;
+    display: block;
+    border-radius: 12px;
+  }
+
+  .paro {
+    text-align: center;
+  }
+
+  .desenvolvimento h2, .manutencao h2 {
+    font-size: 1.3rem;
+  }
+
+  .desenvolvimento p, .manutencao p {
+    font-size: 1rem;
+  }
+
+  /* Ajustes no menu para telas pequenas */
+  .nav ul {
+    padding: 0;
+  }
+
+  .nav li {
+    display: block;
+    margin: 8px 0;
+  }
+
+  .nav a {
+    font-size: 1.1rem;
+    padding: 10px 15px;
+  }
+
+  /* Ajusta margem das experiências */
+  .experiencias {
+    margin: 20px 10px;
+  }
+
+  /* Centraliza títulos das seções */
+  .formacoes > p, .experiencias > p {
+    text-align: center;
+    font-size: 1.3rem;
+    margin: 15px 0;
+  }
+
+  /* Aumentar largura do container de formações e dos cartões no celular */
+  .formacoes {
+    width: 100%;
+    max-width: 560px; /* mais largo para deixar os cartões maiores */
+    margin: 0 auto 12px;
+    padding: 10px 12px 18px;
+  }
+
+  .cartoes {
+    width: 100%;
+    max-width: 560px;
+    padding: 8px 12px 20px;
+    margin: 0 auto;
+    gap: 12px;
+    justify-content: center;
+  }
+
+  .card, .cartao {
+    width: 100%;
+    max-width: 520px; /* torna os cartões um pouco maiores que o padrão */
+    min-width: 0; /* evita overflow por min-width definido anteriormente */
+    padding: 14px;
+    margin: 6px auto;
+  }
+}
+
