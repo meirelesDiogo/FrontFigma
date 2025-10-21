@@ -1,5 +1,5 @@
-
-html, body {
+html,
+body {
 
   border: 0;
   padding: 0;
@@ -8,34 +8,40 @@ html, body {
   background: #f8fbfd;
   color: #222;
 }
+
 .tudo {
- 
+
   margin: 0 auto;
-  box-shadow: 0 2px 16px rgba(0,0,0,0.04);
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.04);
   background: #fff;
   border-radius: 12px;
   padding-bottom: 30px;
 }
-.formacoes, .skills {
+
+.formacoes,
+.skills {
   background-color: #e0f2ff;
   border-radius: 10px;
   margin-bottom: 30px;
   padding-bottom: 10px;
-  
-}
-.form{
-  
-  background-color: #e0f2ff;
- 
+
 }
 
-.formacoes > p, .experiencias > p {
+.form {
+
+  background-color: #e0f2ff;
+
+}
+
+.formacoes>p,
+.experiencias>p {
   font-size: 1.5rem;
   font-weight: 600;
   color: black;
   margin: 20px 0 10px 30px;
   letter-spacing: 1px;
 }
+
 .cartoes {
   display: flex;
   gap: 24px;
@@ -43,20 +49,23 @@ html, body {
   justify-content: center;
   flex-wrap: wrap;
 }
+
 .card {
   max-width: 400px;
   min-height: auto;
   border-radius: 12px;
   border: 1px solid #b3d8f7;
   background: #fff;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
   padding: 18px 16px;
   transition: box-shadow 0.3s;
 }
+
 .card:hover {
-  box-shadow: 0 6px 24px rgba(0,123,255,0.13);
+  box-shadow: 0 6px 24px rgba(0, 123, 255, 0.13);
   border-color: #007bff;
 }
+
 .skills {
   display: flex;
   justify-content: center;
@@ -64,16 +73,19 @@ html, body {
   padding: 24px 0;
   flex-wrap: wrap;
 }
+
 .cartao {
   flex: 1;
   max-width: 300px;
   min-width: 220px;
 }
-.front, .back {
+
+.front,
+.back {
   background-color: #fff;
   border-radius: 12px;
   text-align: center;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
   height: 300px;
   padding: 18px 12px;
   display: flex;
@@ -82,30 +94,37 @@ html, body {
   justify-content: center;
   transition: box-shadow 0.3s;
 }
-.front:hover, .back:hover {
-  box-shadow: 0 8px 24px rgba(0,123,255,0.12);
+
+.front:hover,
+.back:hover {
+  box-shadow: 0 8px 24px rgba(0, 123, 255, 0.12);
 }
+
 .bi.bi-database-lock,
 .bi.bi-pc-display {
   font-size: 44px;
   color: black;
   margin-bottom: 12px;
 }
+
 header {
   text-align: center;
   padding: 36px 18px 18px 18px;
 }
+
 header h1 {
   font-size: 2.2rem;
   font-weight: 700;
   margin-bottom: 16px;
   color: black;
 }
+
 header p {
   font-size: 1.1rem;
   margin-bottom: 18px;
   color: #444;
 }
+
 #curriculo {
   text-decoration: none;
   background-color: rgba(255, 0, 0, 0.626);
@@ -113,35 +132,40 @@ header p {
   border-radius: 9px;
   color: #fff;
   display: block;
-  
+
   text-align: center;
   width: 250px;
   font-weight: 500;
   letter-spacing: 0.5px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
   transition: background 0.3s, color 0.3s;
 }
+
 #curriculo:hover {
   background-color: rgba(255, 0, 0, 0.737);
   color: #fff;
 }
+
 .nav {
   background-color: #e0f2ff;
   border-radius: 0 0 12px 12px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
   padding: 10px 0;
   margin-bottom: 18px;
 }
+
 .nav ul {
   list-style: none;
   padding: 0;
   margin: 0;
   text-align: center;
 }
+
 .nav li {
   display: inline-block;
   margin: 0 8px;
 }
+
 .nav a {
   text-decoration: none;
   color: #222;
@@ -150,37 +174,46 @@ header p {
   border-radius: 6px;
   transition: color 0.3s, background 0.3s;
 }
+
 .nav a:hover {
   color: black;
   background: #d0eaff;
 }
-.desenvolvimento, .manutencao {
+
+.desenvolvimento,
+.manutencao {
   background: #f4faff;
   border-radius: 10px;
   margin: 18px 0;
   padding: 18px 22px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
 }
-.desenvolvimento h2, .manutencao h2 {
+
+.desenvolvimento h2,
+.manutencao h2 {
   color: black;
   font-size: 1.3rem;
   margin-bottom: 8px;
 }
+
 .redes-sociais {
   text-align: center;
   margin: 0px 0 10px 0;
 
 }
+
 .redes-sociais i {
   padding: 18px;
   font-size: 2rem;
   color: black;
   transition: color 0.3s, transform 0.3s;
 }
+
 .redes-sociais a:hover i {
   color: #222;
   transform: scale(1.15);
 }
+
 footer {
   text-align: center;
   margin-top: 30px;
@@ -188,19 +221,26 @@ footer {
   color: #888;
   font-size: 1rem;
 }
-.nav{
+
+.nav {
   justify-content: center;
 }
+
 @media (max-width: 900px) {
-  .cartoes, .skills {
+
+  .cartoes,
+  .skills {
     flex-direction: column;
     align-items: center;
     gap: 18px;
   }
-  .card, .cartao {
+
+  .card,
+  .cartao {
     max-width: 95vw;
     width: 100%;
   }
+
   .tudo {
     max-width: 98vw;
     border-radius: 0;
@@ -220,104 +260,130 @@ footer {
     gap: 20px;
   }
 
-  .card, .cartao {
+  .card,
+  .cartao {
     max-width: 700px;
     width: 100%;
     margin: 10px auto;
     min-width: 0;
   }
 }
+
 @media (max-width: 600px) {
   header h1 {
     font-size: 1.3rem;
   }
-  .formacoes > p, .experiencias > p {
+
+  .formacoes>p,
+  .experiencias>p {
     font-size: 1.1rem;
     margin-left: 10px;
   }
-  .desenvolvimento, .manutencao {
+
+  .desenvolvimento,
+  .manutencao {
     padding: 12px 8px;
   }
+
   #curriculo {
     width: 90vw;
     font-size: 1rem;
   }
+
   .nav a {
     padding: 10px 8px;
     font-size: 1rem;
   }
-  .card, .cartao {
+
+  .card,
+  .cartao {
     min-width: 180px;
     height: auto;
     padding: 12px 8px;
   }
-  .front, .back {
+
+  .front,
+  .back {
     height: auto;
     padding: 12px 8px;
   }
 }
-.head{
+
+.head {
   display: flex;
   align-items: center;
 }
-.card{
+
+.card {
   width: 45%;
 }
+
 .desenvolvimento,
-.manutencao{
+.manutencao {
   display: flex;
   align-items: center;
   margin-bottom: 20px;
 }
-.desenvolvimento h2, .manutencao h2 {
+
+.desenvolvimento h2,
+.manutencao h2 {
   margin: 0;
   font-size: 1.5em;
 }
-.desenvolvimento p, .manutencao p {
+
+.desenvolvimento p,
+.manutencao p {
   margin: 5px 0;
 }
-.desenvolvimento img, .manutencao img {
+
+.desenvolvimento img,
+.manutencao img {
   max-width: 150px;
   height: auto;
   margin-right: 20px;
 }
+
 .desenvolvimento,
-.manutencao{
-  
+.manutencao {
+
   height: 240px;
 }
 
 
-.p{
+.p {
   color: gray;
 }
-.b{
+
+.b {
   color: white;
   background-color: black;
-  padding: 5px ;
+  padding: 5px;
   border-radius: 15px;
 }
 
 header {
-  text-align: left; 
-  max-width: 900px; 
-  margin: 0 auto; /* centraliza horizontalmente  */
+  text-align: left;
+  max-width: 900px;
+  margin: 0 auto;
+  /* centraliza horizontalmente  */
   padding: 20px;
 }
 
 
 
-.diogadas{
- display: flex;
+.diogadas {
+  display: flex;
 }
-.card{
+
+.card {
   margin: 20px;
 }
 
-.experiencias{
- margin: 50px 50px;
+.experiencias {
+  margin: 50px 50px;
 }
-.redes-sociais{
+
+.redes-sociais {
   padding: 0px;
 }
 
@@ -329,11 +395,13 @@ header {
     align-items: center;
     gap: 15px;
   }
+
   .head img {
     max-width: 150px;
     width: 100%;
     height: auto;
-    border-radius: 50%; /* deixa a imagem circular */
+    border-radius: 50%;
+    /* deixa a imagem circular */
   }
 
   header h1 {
@@ -355,13 +423,15 @@ header {
   }
 
   /* Experiências e Manutenção: empilhar imagem e texto, imagem centralizada */
-  .desenvolvimento, .manutencao {
+  .desenvolvimento,
+  .manutencao {
     flex-direction: column;
     height: auto;
     padding: 12px 10px;
   }
 
-  .desenvolvimento img, .manutencao img {
+  .desenvolvimento img,
+  .manutencao img {
     max-width: 150px;
     width: 100%;
     height: auto;
@@ -374,11 +444,13 @@ header {
     text-align: center;
   }
 
-  .desenvolvimento h2, .manutencao h2 {
+  .desenvolvimento h2,
+  .manutencao h2 {
     font-size: 1.3rem;
   }
 
-  .desenvolvimento p, .manutencao p {
+  .desenvolvimento p,
+  .manutencao p {
     font-size: 1rem;
   }
 
@@ -403,7 +475,8 @@ header {
   }
 
   /* Centraliza títulos das seções */
-  .formacoes > p, .experiencias > p {
+  .formacoes>p,
+  .experiencias>p {
     text-align: center;
     font-size: 1.3rem;
     margin: 15px 0;
@@ -412,7 +485,8 @@ header {
   /* Aumentar largura do container de formações e dos cartões no celular */
   .formacoes {
     width: 100%;
-    max-width: 560px; /* mais largo para deixar os cartões maiores */
+    max-width: 560px;
+    /* mais largo para deixar os cartões maiores */
     margin: 0 auto 12px;
     padding: 10px 12px 18px;
   }
@@ -426,12 +500,65 @@ header {
     justify-content: center;
   }
 
-  .card, .cartao {
+  .card,
+  .cartao {
     width: 100%;
-    max-width: 520px; /* torna os cartões um pouco maiores que o padrão */
-    min-width: 0; /* evita overflow por min-width definido anteriormente */
+    max-width: 520px;
+    /* torna os cartões um pouco maiores que o padrão */
+    min-width: 0;
+    /* evita overflow por min-width definido anteriormente */
     padding: 14px;
     margin: 6px auto;
   }
 }
 
+
+form label,
+input {
+  display: flex;
+  text-align: center;
+
+}
+
+#submit {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#Email {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#Nome {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+form {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
